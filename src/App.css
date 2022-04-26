@@ -1,0 +1,27 @@
+:root {
+  --backgroundColorWhite: white;
+  --colorBlack: black;
+  --backgroundColorBlack: black;
+  --colorWhite: white;
+}
+.App-white {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--backgroundColorWhite);
+  color: var(--colorBlack);
+}
+.App-dark {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--backgroundColorBlack);
+  color: var(--colorWhite);
+}
+.error {
+  color: red;
+}
+.search-container {
+  top: 10%;
+  position: absolute;
+}
