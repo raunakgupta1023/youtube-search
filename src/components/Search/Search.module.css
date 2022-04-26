@@ -1,0 +1,19 @@
+.suggestion_list {
+  text-align: left;
+  border: 1px solid grey;
+  overflow: auto;
+}
+.suggestion_list_item_image {
+  height: 3rem;
+  width: 3rem;
+}
+.suggestion_list_error {
+  text-align: left;
+  overflow: auto;
+}
+.suggestion_title {
+  font-size: 0.8rem;
+}
+.suggestion_desc {
+  font-size: 0.6rem;
+}
